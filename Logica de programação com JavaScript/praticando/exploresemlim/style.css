@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --color-base-white:#ffffff;
+    --color-base-gray-100: #312D64;
+    --color-base-gray-200: #B52184;
+    --color-base-gray-300: #F9F4FB;
+    --color-base-gray-400: #343193;
+}
+header img{
+     width: 73rem ;
+     height: 73rem;
+}
+header{
+    margin: 0 14.4rem ;
+     display:flex;
+     justify-content: center;
+    
+}
+
+.title {
+   margin: 43rem 7.3rem 5rem;
+
+}
+
+.title h1{
+    font-size: 4rem;
+ 
+
+}
+
+
+p{
+    width: 35rem;
+    display: flex;
+    
+    
+
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: var(--color-base-gray-100);
+}
+
+.title img{
+    margin-top:43rem ;
+    width: 5rem;
+    height: 8.5rem;
+
+}
+
+h1{
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color:  var(--color-base-gray-200);
+}
+
+span{
+    font-family: "Mulish", sans-serif;
+    font-weight: 600 ;
+}
+
+main{
+    background: var(--color-base-gray-100);
+    
+    width: 227.9rem;
+    height: 57.6rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.threecard{
+    display: flex;
+    gap: 6rem;
+    
+    
+
+}
+
+.card{
+    border-radius: 2.5rem;
+    
+    width: 36.6rem;
+    height: 44.8rem;
+    padding: 3.2rem; 
+    
+    background: var(--color-base-white); 
+}
+
+.card img{
+    padding-bottom: 4.2rem;
+}
+
+.card h1{
+    font-size: 3rem;
+    font-family: 'Mulish';
+    font-weight:900;
+
+
+    width: 27.9rem;
+    height: 2.5rem;
+    margin-bottom:2.4rem;
+} 
+
+span{
+    font-family: 'Mulish';
+    font-weight: 600;
+    color: var(--color-base-gray-100);
+
+    width: 32.1rem;
+    height: 18.2rem;
+    
+
+    font-size: 1.9rem;
+}
+
+form{
+    width: 144.4rem;
+    height: 61.2rem;
+}
+
+legend{
+    font-family: 'Mulish';
+    font-weight: 900;
+    color: var(--color-base-gray-200);
+
+    margin: 9.5rem 10.9rem 2.5rem;
+
+    width: 35.7rem;
+    height: 5.3rem;
+    font-size: 3.7rem;
+}
+
+.dice{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    row-gap: 1.2rem;
+
+}
+
+#title-contat{
+    width: 59.2rem;
+    height: 4.8rem;
+    padding-left: 5.0rem;
+    border-radius: 1.3rem;
+
+    
+
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='22' viewBox='0 0 20 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.5926 2.02719C12.6805 1.04234 11.4064 0.5 10.0001 0.5C8.5864 0.5 7.30812 1.03906 6.40015 2.01781C5.48233 3.00734 5.03515 4.35219 5.14015 5.80437C5.34827 8.66937 7.52843 11 10.0001 11C12.4719 11 14.6483 8.66984 14.8597 5.80531C14.9661 4.36625 14.5161 3.02422 13.5926 2.02719Z' fill='%23B52184'/%3E%3Cpath d='M18.2501 21.5H1.75015C1.53418 21.5028 1.3203 21.4574 1.12407 21.3672C0.927837 21.2769 0.754194 21.1441 0.615771 20.9783C0.311084 20.6141 0.188271 20.1167 0.279209 19.6137C0.674834 17.4191 1.90952 15.5755 3.85015 14.2812C5.57421 13.1323 7.75811 12.5 10.0001 12.5C12.2422 12.5 14.4261 13.1328 16.1501 14.2812C18.0908 15.575 19.3255 17.4186 19.7211 19.6133C19.812 20.1162 19.6892 20.6136 19.3845 20.9778C19.2461 21.1437 19.0725 21.2766 18.8763 21.367C18.6801 21.4573 18.4662 21.5028 18.2501 21.5Z' fill='%23B52184'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 14px top 50%;
+   
+
+}
+#title-contat::placeholder{
+    font-family: 'Mulish'; 
+    font-weight: 600;
+    color: var(--color-base-gray-100);
+
+    height: 1.6rem;
+    width: 52.6rem;
+    padding: 4rem .3rem;
+}
+
+#title-email{
+    width: 59.2rem;
+    height: 4.8rem;
+    padding-left: 5.0rem;
+    border-radius: 1.3rem;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.1528 5.42737C17.6481 3.78674 15.4262 2.91956 12.7262 2.91956C10.3356 2.91956 8.0059 3.84768 6.17309 5.53518C4.34027 7.22268 3.21527 9.46331 3.00434 11.8539C2.7934 14.2774 3.5434 16.5555 5.11371 18.2711C6.67934 19.9774 8.86371 20.9196 11.2731 20.9196C12.7965 20.9196 13.7856 20.8071 15.2809 20.1836C15.6606 20.0242 15.8434 19.5836 15.684 19.2039C15.5246 18.8242 15.084 18.6414 14.7043 18.8008C13.4293 19.3352 12.6512 19.4242 11.2778 19.4242C9.29496 19.4242 7.49965 18.6555 6.22465 17.2633C4.94027 15.8617 4.32621 13.9867 4.50434 11.9899C4.86996 7.81799 8.56371 4.42424 12.7356 4.42424C15.0043 4.42424 16.8418 5.12268 18.0559 6.44456C19.209 7.70549 19.7246 9.44456 19.5465 11.4696C19.3918 13.2227 18.7122 14.0852 18.1731 14.4977C17.6575 14.8914 17.1418 14.9758 16.8606 14.9242C16.0309 14.7789 15.5996 13.9633 15.7075 12.7539L16.1059 8.23987C16.1434 7.82737 15.8387 7.46174 15.4262 7.42893C15.0137 7.39143 14.6481 7.69612 14.6153 8.10862L14.5778 8.53518C13.8653 7.81799 12.9184 7.42424 11.9012 7.42424C10.7856 7.42424 9.72152 7.89768 8.90121 8.75549C8.11371 9.57581 7.62621 10.6821 7.52309 11.8586C7.4059 13.1664 7.79496 14.4039 8.57777 15.2617C9.26215 16.0117 10.209 16.4242 11.245 16.4242C12.3887 16.4242 13.4668 16.0024 14.2778 15.243C14.3903 15.1399 14.4981 15.0274 14.5965 14.9102C15.0606 15.8055 15.8575 16.2696 16.6075 16.4055C17.3996 16.5461 18.3278 16.2789 19.0965 15.693C19.8793 15.093 20.8496 13.8977 21.0512 11.6055C21.2434 9.17268 20.5778 6.98362 19.1528 5.42737ZM11.2262 14.9196C10.6075 14.9196 10.0684 14.6852 9.66527 14.2446C9.16371 13.6961 8.91996 12.8711 8.99965 11.9852C9.14965 10.2649 10.42 8.91956 11.8871 8.91956C12.534 8.91956 13.1293 9.18206 13.57 9.66018C14.0809 10.218 14.3293 11.0149 14.2543 11.8539C14.0668 13.968 12.595 14.9196 11.2262 14.9196Z' fill='%23B52184'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 14px top 50%;
+}
+
+#title-email::placeholder {
+    font-family: 'Mulish'; 
+    font-weight: 600;
+    color: var(--color-base-gray-100);
+
+    height: 1.6rem;
+    width: 52.6rem;
+    padding: 4rem .3rem;
+
+}
+
+#title-mensage{
+
+    width: 59.2rem;
+    height: 12.6rem;
+    padding:.4rem 1.5rem;
+    border-radius: 1.3rem;  
+     position:left 14px top 50%;
+}
+
+#title-mensage::placeholder{ 
+    font-family: 'Mulish'; 
+    font-weight: 600;
+    color: var(--color-base-gray-100);
+
+ 
+    padding: .2rem;
+}
+
+.button{
+    width: 15.1rem;
+    height: 4.5rem;
+    
+    border-radius: 1.5rem;
+
+    background-color: var(--color-base-gray-400);  
+    color: var(--color-base-white);
+
+}
+
+.dice img{
+    width: 64.4rem;
+    height: 61.2rem;
+    position: absolute;
+    right: 0;
+}
+
+footer{
+    background-color: var(--color-base-gray-100);
+    color: var(--color-base-white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+    width: 228.0rem; 
+    height: 7.8rem;
+
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 1.8rem;
+
+}
+
+
+
+

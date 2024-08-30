@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+
+    --color-base-gray: hsl(195, 91%, 25%);
+    --color-base-gray-white: hsl(0, 0%, 100%);
+    --color-base-gray-700: hsl(240, 6%, 13%);
+}
+
+body{
+    font-size: 1.6rem;
+
+}
+
+
+header{
+    background: var(--color-base-gray);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+
+    padding: 1.2rem 11.2rem;   
+    height: 7.2rem; 
+    width: 144rem;
+
+}
+
+
+
+form input{
+    width: 108.3rem;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    background: #287c98;
+    border: none;
+    border-radius: .4rem;
+
+    
+    
+
+}
+form label{
+    opacity: 0;
+     
+
+}
+
+form input::placeholder{
+    color: var(--color-base-gray-white);
+}
+
+
+
+nav img {
+    background: var(--color-base-gray-white);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: .8rem;
+}
+
+
+.avatar{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+main{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 3.4rem;
+    
+
+    margin: 4.4rem 11rem;
+}
+
+.gato-astronauta img{
+    width: 80.3rem
+}
+
+
+
+.grup h2{
+    
+    margin: 3.2rem 0 ;
+    
+
+    color:var(--color-base-gray-700);
+    font-size: 2.4rem;
+    line-height: 3.9rem;
+    font-weight: 700;
+
+}
+
+.gato-astronauta p {
+    font-size: 1.6rem;
+    height: 37rem;
+    width: 70rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+ 
+section{
+    width: 38.4rem;
+   height: 68.3rem;
+
+   
+}
+aside {
+  
+    width: 90rem;
+    display: flex;
+
+      
+}
+
+.grup{
+    display: flex;
+    align-items: center;
+}
+
+.grup h1{
+    margin: 3.3rem 0;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.9rem;
+  
+}
+
+
+.cat-grup {
+    margin: 3.2rem 366px;
+
+      display: flex;
+      gap: 16px; 
+      padding: 12px; 
+      
+      
+    
+
+    
+}
+
+ button{
+      background-color: var(--color-base-gray);
+
+      width: 4rem;
+      height: 4rem;
+
+    border-radius: 50%;
+    position: relative;
+    left: 18rem;
+    
+    
+}
+.positv img{
+    position: absolute;
+    
+    top: 1.2rem;
+    left: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    
+}
+
+
+
+
+
+
+   
+    
+
+
+    
+        
+     
+
+.cat{
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    align-items: stretch;
+    justify-items: stretch;
+
+    gap: 1.6rem;
+
+    margin: 3.4rem 0;
+
+    
+}
+
+.relats{
+    display: grid;
+    align-content:  center;
+    
+    gap: 1.6rem;
+}
+
+.relats img{
+    width: 15.1rem;
+}
+
+footer{
+    width: 144rem;
+    height: 6.4rem;
+    background: var(--color-base-gray);
+    color: var(--color-base-gray-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
