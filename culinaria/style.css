@@ -1,4 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  font-family: "Alice" , sans-serif;
+  line-height: 150%;
+  color: #573A37;
+}
 body{
+
   background-image: url(assests/bg-image.jpg);
   background-size: cover;
 
@@ -15,4 +26,46 @@ body{
 }
 img{
   border-radius: 16px;
+}
+
+main{
+  padding: 24px;
+}
+
+section + section{
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+h1{
+  line-height: 140%;
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h1, h2{
+  color: #291b1a;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 24px;
+}
+ footer{
+  color: white;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img{
+  
+  vertical-align: middle;
 }
