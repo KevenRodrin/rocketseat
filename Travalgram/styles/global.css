@@ -25,3 +25,19 @@ body{
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+a{
+  text-decoration: none;
+  color: inherit; /*inherit significa herdar, por padrão o navegador coloca uma cor azul e qnd faço ele vai buscar a cor q o pai esta recebendo*/
+}
+
+a:hover{
+  color:var(--brand-color);
+  text-decoration: underline;
+}
+
+.container{
+  padding-inline: 32px ; /*esse é o mesmo esquema do padding block porem ele funciona esse inline no eixo x __;;*/
+  max-width: 1280px;
+  margin-inline:auto;
+}
