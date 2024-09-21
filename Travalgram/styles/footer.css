@@ -2,6 +2,8 @@ footer{
   display: flex;
   gap: 24px;
   padding-block: 24px;
+
+  font: 14px/150% var(--font-family);
 }
 
 footer span:nth-child(1){ /*filho de numero 1 nth-child q contem dentro de uma caixa de caso vinhesse outra tag exemplo "a" ela seria o num 1 e o span seria o 2*/
