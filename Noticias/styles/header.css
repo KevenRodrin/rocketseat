@@ -1,0 +1,30 @@
+#primary{
+  padding-block: 20px;
+
+
+  div{
+    display: flex;
+    align-items:center;
+    gap:8px;
+  }
+
+
+  /*nesting css digamos q seria a mesma coisa q esse #primary div:nth-child()*/
+  
+  div:nth-child(2){
+    margin-inline:auto;
+
+  }
+
+  div:nth-child(3){
+    justify-self: end;
+  }
+}
+
+#secondary{
+  padding-block: 14px;
+  border:solid 1px  var(--stroke-color);
+  border-inline: none; /* tira a borda nas laterais*/
+
+  justify-content: space-between;
+}

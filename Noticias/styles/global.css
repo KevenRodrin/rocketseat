@@ -38,3 +38,22 @@ a:hover{
 h1, h2, h3{
   color: inherit;
 }
+
+.container{
+  max-width: 1280px;
+  padding-inline:32px;
+  margin-inline: auto ;
+
+}
+
+
+/*classe utilitaria, conceito quando tenho uma class
+q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column; /*flox significa é o fluxo*/
+}
