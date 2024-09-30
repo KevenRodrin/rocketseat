@@ -8,3 +8,11 @@ q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
 .grid-flow-col{
   grid-auto-flow: column; /*flox significa é o fluxo*/
 }
+
+.grid-cols-2{
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap: 16px;
+}
