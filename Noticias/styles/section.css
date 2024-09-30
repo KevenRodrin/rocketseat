@@ -3,5 +3,25 @@
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
+
   }
+}
+
+.card {/*mesma coisa que  card::before*/
+
+  position: relative; 
+  overflow: hidden;
+  border-radius: 4px;
+
+
+  &::before{
+    content:"";
+    position: absolute;
+    inset: 0;
+    top: 50%;
+    background: linear-gradient(
+      180deg, /**/
+      transparent 0%, /*a cor q vc quer */
+      #020617 100% /*a cor q pegou no figma e ate aonde ela vai*/
+    );}
 }
