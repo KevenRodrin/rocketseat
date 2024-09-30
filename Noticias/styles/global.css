@@ -39,21 +39,12 @@ h1, h2, h3{
   color: inherit;
 }
 
+img{
+  max-width: 100%; /* na img é como se fosse respeitando a caixa q vc tem dentro ou seja coloque essa img de acordo com o tamanho da caixa*/
+}
+
 .container{
   max-width: 1280px;
   padding-inline:32px;
   margin-inline: auto ;
-
-}
-
-
-/*classe utilitaria, conceito quando tenho uma class
-q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
-
-.grid {
-  display: grid;
-}
-
-.grid-flow-col{
-  grid-auto-flow: column; /*flox significa é o fluxo*/
 }

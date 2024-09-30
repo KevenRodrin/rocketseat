@@ -1,0 +1,10 @@
+/*classe utilitaria, conceito quando tenho uma class
+q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column; /*flox significa é o fluxo*/
+}
