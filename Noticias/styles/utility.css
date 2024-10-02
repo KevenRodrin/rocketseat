@@ -16,3 +16,20 @@ q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
 .gap-16{
   gap: 16px;
 }
+
+.text-2xl{
+  font: var(--h1);
+}
+
+.text-xl{
+  font:  var(--h2);
+}
+
+.text-lg{
+  font:  var(--h3);
+}
+
+.text-paragrah{
+  font:  var(--paragrah);
+}
+
