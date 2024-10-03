@@ -17,6 +17,10 @@ q vai fazer só uma coisa. A ideia é usar ela tanto no css e no html*/
   gap: 16px;
 }
 
+.gap-32{
+  gap: 32px;
+}
+
 .text-2xl{
   font: var(--h1);
 }
