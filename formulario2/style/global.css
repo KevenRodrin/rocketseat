@@ -8,6 +8,7 @@
   --font-family: 'Poppins', sans-serif;
   --text:400 1rem/1.5 var(--font-family); /*1 rem equilave 16px e tudo q for dividir,dividi por 16 
   exemplo 2/16*/
+  --text-sm:400 0.875rem/1.4 var(--font-family);
 
   --text-primary:#292524;
   --text-secondary:#57534e;
