@@ -53,3 +53,20 @@ select{
   background: url(../../assests/icons/arrow-down-01.svg)
   no-repeat calc(100% - 1rem); /*esse calc é uma função q faz um calculo e esse 1rem seria os 16px */
 }
+
+.address .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]){
+  opacity: .5;
+}
+
+input{
+  &[disabled]{
+    background-color: var(--surface-disabled);
+    border: 1px solid var(--stroke-default);
+
+    color: var(--text-primary);
+  }
+}
