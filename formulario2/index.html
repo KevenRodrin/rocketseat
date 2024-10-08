@@ -18,12 +18,58 @@
         <div class="back">
           <img src="./assests/icons/arrow-left-02.svg" alt="">
           <span>Voltar</span>
+        </div>
 
           <h1>Formulário de matrícula</h1>
           <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
+        <form method="post">
+          <fieldset class="child-info">
+            <legend>Informações da criança</legend>
 
-        </div>
+            <div class="input-wrapper">
+              <label for="fullname">Nome completo</label>
+              <input 
+               id="fullname"
+               name="fullname"
+               type="text"
+               placeholder="Qual o nome da criança">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input id="birth" 
+              type="date" 
+              name="birth"
+              lang="pt-br">
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Femino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro não responder</option>
+              </select>
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="medical-info">Informações médicas</label>
+              <textarea name="medical-info" id="medical-info"
+                cols="30" row="10"
+                placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"></textarea>
+
+                <div class="droparea-wrapper">
+                  <input type="file" name="birth-file" id="birth-file">
+                  <img src="assests/icons/cloud-upload.svg" alt="">
+                  <p>Clique aqui para selecionar os arquivos</p>
+
+                </div>
+            </div>
+          </fieldset>
+        </form>
+        
+
         
       </div>
     </main>
@@ -40,6 +86,8 @@
       <img src="assests/icons/Illustration.svg" alt="Ilustração de crianças aprendendo com sua professora">
       </div>
     </aside>
+
+
   </div>
   
 </body>
