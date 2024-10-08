@@ -69,4 +69,31 @@ input{
 
     color: var(--text-primary);
   }
+
+  &:invalid{
+    border: 0.125rem solid var(--semantic-error);
+  }
+  & + small{
+    font: var(--text-sm);
+    color: #78716c;
+
+
+    display: inline-block;
+    margin-top: .25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+
+    color: var(--semantic-error);
+    font: var(--text-sm);
+
+    margin-top: .25rem;
+  }
+
+  &:not(:focus):valid + .error{ /* para tirar a msg a baixo q esta invalido...not(:focus) é para dizer q ele n esta foco e o valid q é verificar se esta valido  pega o error  e tira ele*/
+    display: none;
+  }
 }
