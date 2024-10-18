@@ -15,6 +15,17 @@
   : var(--px-lg);
 }
 
+.flex{
+  display: flex;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.grid{
+  display: grid;
+}
 
 
 .container{
