@@ -22,7 +22,7 @@
   --brand-color-primary: #F7B733;
   --brand-color-secondary:#FC4A1A;
 
-  --font-family:"Inter",system-ui, sans-serif;
+  --font-family:'Inter',system-ui, sans-serif;
   --fw-base:400;/*fw significa font weight*/
   --fw-md:500;
   --fw-bold:800;
@@ -98,7 +98,7 @@ ul[role="list"]{
     --fs-2xl: 4rem;
 
     --px-lg: 2rem;
-    --py-base: 1.5rem;
+    --py-base: 1rem;
     --py-lg: 2.5rem;
     --py-xl: 5rem;
   }
