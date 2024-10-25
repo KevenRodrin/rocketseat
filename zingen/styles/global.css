@@ -27,7 +27,7 @@
   --fw-md:500;
   --fw-bold:800;
 
-  --fs-sm:0.875rem/100% medium;
+  --fs-sm:0.875rem;
   --fs-base: 1rem;
   --fs-lg: 1.25rem;
   --fs-xl:1.5rem;
@@ -51,7 +51,7 @@ body{
   background-color: var(--bg-color);
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
@@ -59,7 +59,7 @@ h1, h2, h3{
 }
 
 h1{
-  font:var(--fs-2xl)
+  font-size:var(--fs-2xl);
 }
 
 h2{
