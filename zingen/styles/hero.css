@@ -29,7 +29,7 @@
     background: url(../assests/icons/bg-hero.svg) no-repeat bottom center/contain;
     padding-bottom: 15rem;
 
-    & img[src*="music"] {
+    & img[src*="music"] /*src* pode pegar uma sequencia de caracter tipo music  */ {
       width: 25.75rem;
  }
 
