@@ -19,7 +19,7 @@ section{
   }
 }
 
-  &p{
+  & p{
     margin-top: .5rem;
     color: var(--text-color-secondary);
   }
